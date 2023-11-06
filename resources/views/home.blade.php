@@ -19,7 +19,7 @@
       <hr class="mt-20">
 
       <div>
-        @livewire('footer')
+        @livewire('Footer')
       </div>
     </div>
   </div>
