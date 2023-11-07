@@ -30,10 +30,16 @@ export default {
   
         '2xl': '1536px',
         // => @media (min-width: 1536px) { ... }
-      }
+      },
+      backgroundColor: {
+        'rgb-241-245-249': 'rgb(241, 245, 249)',
+      },
+
     },
    
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 
